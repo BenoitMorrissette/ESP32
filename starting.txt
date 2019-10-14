@@ -1,0 +1,67 @@
+I (518) cpu_start: Pro cpu up.
+I (518) cpu_start: Application information:
+I (518) cpu_start: Compile time:     Oct 11 2019 00:36:12
+I (521) cpu_start: ELF file SHA256:  0000000000000000...
+I (527) cpu_start: ESP-IDF:          v4.0-beta1
+I (533) cpu_start: Starting app cpu, entry point is 0x40082cf4
+I (0) cpu_start: App cpu up.
+I (543) heap_init: Initializing. RAM available for dynamic allocation:
+I (550) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM
+I (556) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM
+I (562) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM
+I (568) heap_init: At 3FFBDB5C len 00000004 (0 KiB): DRAM
+I (574) heap_init: At 3FFCC620 len 000139E0 (78 KiB): DRAM
+I (581) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+I (587) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+I (593) heap_init: At 40099C98 len 00006368 (24 KiB): IRAM
+I (599) cpu_start: Pro cpu start user code
+I (618) spi_flash: detected chip: generic
+I (618) spi_flash: flash io: dio
+W (618) spi_flash: Detected size(16384k) larger than the size in the binary image header(4096k). Using the size in the binary image header.
+I (629) cpu_start: Chip Revision: 1
+W (633) cpu_start: Chip revision is higher than the one configured in menuconfig. Suggest to upgrade it.
+I (644) cpu_start: Starting scheduler on PRO CPU.
+I (0) cpu_start: Starting scheduler on APP CPU.
+[boot]
+I (80) wifi: wifi driver task: 3ffd295c, prio:23, stack:3584, core=0
+I (814) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE
+I (814) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE
+I (844) wifi: wifi firmware version: 10f4364
+I (844) wifi: config NVS flash: enabled
+I (844) wifi: config nano formating: disabled
+I (844) wifi: Init dynamic tx buffer num: 32
+I (844) wifi: Init data frame dynamic rx buffer num: 32
+I (854) wifi: Init management frame dynamic rx buffer num: 32
+I (854) wifi: Init management short buffer num: 32
+I (864) wifi: Init static rx buffer size: 1600
+I (864) wifi: Init static rx buffer num: 10
+I (874) wifi: Init dynamic rx buffer num: 32
+Connecting to WiFi
+I (974) phy: phy_version: 4102, 2fa7a43, Jul 15 2019, 13:06:06, 1, 0
+I (984) wifi: mode : sta (24:0a:c4:a7:80:08)
+I (984) wifi: STA_START
+I (2314) wifi: new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (2874) wifi: state: init -> auth (b0)
+I (2884) wifi: state: auth -> assoc (0)
+I (2884) wifi: state: assoc -> run (10)
+I (3934) wifi: connected with tioneb, channel 11, BW20, bssid = f8:7b:8c:1f:f5:8c
+I (3934) wifi: pm start, type: 1
+
+I (3944) network: CONNECTED
+I (7294) tcpip_adapter: sta ip: 192.168.1.190, mask: 255.255.255.0, gw: 192.168.1.1
+I (7294) network: GOT_IP
+Shutting down access point...
+ip : 192.168.1.190
+netmask: 255.255.255.0
+gateway: 192.168.1.1
+DNS    : 192.168.1.112
+MAC    : 24:0a:c4:a7:80:08
+
+Memory free: 105584
+MicroPython v1.11-422-g98c2eabaf on 2019-10-11; ESP32 module with ESP32
+Type "help()" for more information.
+
+MicroPython v1.11-422-g98c2eabaf on 2019-10-11; ESP32 module with ESP32
+
+Type "help()" for more information.
+>>>
